@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and mode designing</title>
+    <style>
+        .container{
+            border:2px solid rgb(66, 46, 139);
+            background-color: seagreen;
+            padding:34px;
+            margin:34px auto;
+            width: 666px;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            /* background-color: rgb(45,206,144); */
+        }
+        a:hover{
+            color: rgb(218, 188, 188);
+            background-color: rgb(45, 206, 144);
+            /* color:black; */
+        }
+        a:visited{
+            background-color: rgb(160, 147, 33);
+
+        }
+        a:active{
+            background-color: darkgreen;
+        }
+        .btn{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight:bold;
+          background-color:rgb(165, 64, 64);
+          padding:6px;
+          border:none;
+          cursor: pointer;
+          font-size: 14px;
+          border-radius: 6px;
+         }
+         .btn:hover{
+             color:darkorange;
+             background-color: darkslateblue;
+             border: 2px solid black;
+         }
+
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>THIS IS MY HEADING</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi rerum commodi magni, distinctio
+            soluta ex blanditiis sit quod illum, et error mollitia dicta veniam ab quae minima provident! Nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci libero maxime excepturi fugiat porro doloribus voluptate facere quisquam deleniti. Expedita eos maiores impedit ullam repudiandae nisi corrupti, repellat tempore! Maiores cumque tempore provident quibusdam sapiente magnam pariatur exercitationem repellendus non? Modi fugit incidunt possimus commodi?</P>
+            <a href="https://google.com" class="btn">read more</a>
+            <button class="btn">contact us</button>
+    </div>
+</body>
+
+</html>
